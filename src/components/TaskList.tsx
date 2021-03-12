@@ -42,7 +42,7 @@ export function TaskList() {
       // sobrescrevendo uma propriedade
       isComplete: !task.isComplete,
       // retorna a task do jeito que ela estava
-    } : tasks );
+    } : task );
 
     setTasks(newTasks);
   }
